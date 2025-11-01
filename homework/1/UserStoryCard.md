@@ -30,7 +30,7 @@ Given a participant has been successfully removed from the room
 When the Administrator views the participant list or room summary  
 Then the system displays the updated total number of participants in the room  
 
-User Flow
+User Flow  
 Main Scenario
 
 1. The Administrator logs into the system and navigates to the “Room Management” section.
