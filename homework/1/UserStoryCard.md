@@ -6,9 +6,9 @@ REQ-10 | Participant Removal by Administrator
 Description:  
 The system must allow the Administrator to remove a participant from the room until the randomization starts.
 
-User Story:
-As an Administrator,
-I want to remove a participant from the room before the randomization starts,
+User Story:  
+As an Administrator,  
+I want to remove a participant from the room before the randomization starts,  
 So that I can maintain the correct list of participants and prevent invalid users from joining the gift exchange.
 
 ✅ Acceptance Criteria
