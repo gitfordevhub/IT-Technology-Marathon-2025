@@ -56,19 +56,24 @@ Main Scenario
 Validation and Processing
 
 7. The system performs checks:
+
     7.1 Has the randomization process already started?
+    
     7.2 Does the participant still exist in the database (they might have been removed earlier by another administrator)?
 
 8. If randomization has not started and the participant exists:
 
     8.1 The system removes the participant and all related data (wishes, messages, matching pairs).
+    
     8.2 The participant counter in the interface is updated.
+    
     8.3 The system displays:
         “Participant successfully removed.”
 
 9. If randomization has already started:
 
     9.1 The system cancels the operation.
+    
     9.2 The system displays:
         “Participant removal is not available after randomization has started.”
 
@@ -76,21 +81,26 @@ Validation and Processing
 
     10.1 The system displays:
          “An error occurred while removing the participant. Please try again later.”
+         
     10.2 The event is logged with an error code and details.
 
 Additional Scenarios
 
 11. If the participant being removed is currently active in the room:
 
-    10.1 Their current session is forcibly terminated.
-    10.2 Upon re-entry attempt, the message appears:
+    11.1 Their current session is forcibly terminated.
+    
+    11.2 Upon re-entry attempt, the message appears:
          “Your access to the room has been revoked by the administrator.”
 
 12. After successful removal, the system records an entry in the audit log, including:
 
     12.1 Administrator’s name
+    
     12.2 Removed participant’s name
+    
     12.3 Date and time
+    
     12.4 Reason (if specified)
 
 13. The Administrator can continue removing other participants or exit the room.
