@@ -79,8 +79,8 @@ Additional Scenarios
 
 11. If the participant being removed is currently active in the room:
 
-    10.1 Their current session is forcibly terminated.
-    10.2 Upon re-entry attempt, the message appears:
+    11.1 Their current session is forcibly terminated.
+    11.2 Upon re-entry attempt, the message appears:
          “Your access to the room has been revoked by the administrator.”
 
 12. After successful removal, the system records an entry in the audit log, including:
