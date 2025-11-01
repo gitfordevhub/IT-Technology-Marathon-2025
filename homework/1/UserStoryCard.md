@@ -1,6 +1,7 @@
 User Story Card
 
 User Story Name:
+
 REQ-10 | Participant Removal by Administrator
 
 Description:
