@@ -41,17 +41,17 @@ Main Scenario
     3.1 If there are many participants, the list is loaded page by page.
     
     3.2 If loading fails due to a network issue or database problem (e.g., connection timeout, lost server connection, authorization error, or table lock),
-        the system displays:
-        “Failed to load the list of participants. There may be a connection issue with the server or database. Please try again later.”
+            the system displays:
+            “Failed to load the list of participants. There may be a connection issue with the server or database. Please try again later.”
         
     3.3 The error is logged in the system journal with the type: NetworkError, DatabaseConnectionError, or QueryTimeout.
 
-4. The Administrator locates the desired participant and clicks the “Remove” button next to their name.
+5. The Administrator locates the desired participant and clicks the “Remove” button next to their name.
 
-5. The system displays a confirmation dialog:
+6. The system displays a confirmation dialog:
     “Are you sure you want to remove participant <Name>? This action cannot be undone.”
 
-6. The Administrator confirms the action.
+7. The Administrator confirms the action.
 
 Validation and Processing
 
