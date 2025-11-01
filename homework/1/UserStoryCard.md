@@ -20,14 +20,15 @@ Then the system removes the selected participant from the room and displays a co
 
 AC2 — Removed participant loses access to the room and their data is deleted
 
-Given a participant has been removed from the room by the Administrator
-When the removed participant tries to access the room again
-Then the system denies access and permanently deletes all data related to that participant
+Given a participant has been removed from the room by the Administrator  
+When the removed participant tries to access the room again  
+Then the system denies access and permanently deletes all data related to that participant  
 
-AC3 — The system updates the number of participants in the room accordingly
-Given a participant has been successfully removed from the room
-When the Administrator views the participant list or room summary
-Then the system displays the updated total number of participants in the room
+AC3 — The system updates the number of participants in the room accordingly  
+
+Given a participant has been successfully removed from the room  
+When the Administrator views the participant list or room summary  
+Then the system displays the updated total number of participants in the room  
 
 User Flow
 Main Scenario
