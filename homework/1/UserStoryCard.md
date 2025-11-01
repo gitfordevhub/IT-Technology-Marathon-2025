@@ -39,7 +39,8 @@ Main Scenario
 3. The system loads the list of participants.
 
     3.1 If there are many participants, the list is loaded page by page.
-    3.2 If loading fails due to a network issue or database problem (e.g., connection timeout, lost server connection, authorization error, or table lock), the system displays:
+    3.2 If loading fails due to a network issue or database problem (e.g., connection timeout, lost server connection, authorization error, or table lock),
+        the system displays:
         “Failed to load the list of participants. There may be a connection issue with the server or database. Please try again later.”
     3.3 The error is logged in the system journal with the type: NetworkError, DatabaseConnectionError, or QueryTimeout.
 
