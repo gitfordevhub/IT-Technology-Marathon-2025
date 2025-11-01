@@ -3,7 +3,7 @@ User Story Card
 User Story Name:  
 REQ-10 | Participant Removal by Administrator
 
-Description:
+Description:  
 The system must allow the Administrator to remove a participant from the room until the randomization starts.
 
 User Story:
