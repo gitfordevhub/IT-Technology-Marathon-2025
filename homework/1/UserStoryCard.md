@@ -11,12 +11,12 @@ As an Administrator,
 I want to remove a participant from the room before the randomization starts,  
 So that I can maintain the correct list of participants and prevent invalid users from joining the gift exchange.
 
-✅ Acceptance Criteria
-AC1 — The Administrator can remove any participant from the room until the randomization starts
+✅ Acceptance Criteria  
+AC1 — The Administrator can remove any participant from the room until the randomization starts  
 
-Given the Administrator is logged into the system and is viewing the list of participants in a specific room
-When the Administrator selects a participant and clicks “Remove” before the randomization starts
-Then the system removes the selected participant from the room and displays a confirmation message
+Given the Administrator is logged into the system and is viewing the list of participants in a specific room  
+When the Administrator selects a participant and clicks “Remove” before the randomization starts  
+Then the system removes the selected participant from the room and displays a confirmation message  
 
 AC2 — Removed participant loses access to the room and their data is deleted
 
